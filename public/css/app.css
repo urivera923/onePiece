@@ -1,0 +1,51 @@
+body{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000428, #004e92);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000428, #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.car_img {
+    background-image: url("https://nintendoeverything.com/wp-content/uploads/eiji-aonuma.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.car_img1 {
+    background-image: url("https://fs-prod-cdn.nintendo-europe.com/media/images/08_content_images/news_5/2017/february_11/CI_News_AonumaInterview_Aonuma_02_image950w.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.car_img2 {
+    background-image: url("http://news.denfaminicogamer.jp/wp-content/uploads/2017/03/abbe7195b1211a27d847ca5d95c7ca61-1024x785.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+p{
+    text-align: justify;
+}
+
+.borde-card{
+    border: 3px solid #833ab4;
+    border-radius: 2%;
+    /* border: 2mm ridge rgba(0, 224, 255, 0.888); */
+    border-image: linear-gradient(90deg, #833ab4, #fd1d1d ,#fcb045);
+    border-image-slice: 100;
+    background-origin: content-box;
+    background-clip: content-box, border-box ;
+}
+.border-card{
+    border: 3px solid #833ab4;
+    border-radius: 2%;
+    /* border: 2mm ridge rgba(0, 224, 255, 0.888); */
+    border-image: linear-gradient(90deg, #833ab4, #fd1d1d ,#fcb045);
+    border-image-slice: 100;
+    background-origin: content-box;
+    background-clip: content-box, border-box ;
+}
+
+.one-piece{
+    background: linear-gradient(112.1deg, rgba(14, 17, 28, 0.393) 11.4%, rgba(0, 0, 0, 0.538) 70.2%);
+}
